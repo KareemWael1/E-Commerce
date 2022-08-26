@@ -66,13 +66,3 @@
     margin: 10px 0;
     border-radius: 50%;
 }
-
-#subProducts{
-    display: none;
-    position: absolute;
-    background: #e3e6f3;
-}
-
-#Products:hover #subProducts{
-    display: block;
-}
