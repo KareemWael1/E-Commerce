@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Checkout Page</title>
+    <title>E-Commerce</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://previews.123rf.com/images/asmati/asmati1610/asmati161000086/63402708-shopping-cart-sign-white-icon-on-red-circle-.jpg" type="image/icon type">
+    <link rel="icon" href="assets/images/h-t.jpg" type="image/icon type">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
@@ -13,21 +13,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" type="text/css" media="screen" href="DOM CSS.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/cartStyle.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/Header-Footer-Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-     <nav id ="navID">
+    <section id="header">
+        <a href="#"><img id="logo" src="assets/images/h-t.jpg" alt=""></a>
+
         <div>
-            Welcome to Your Shopping Cart!
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li id="Products">Products
+                    <ul id="subProducts">
+                        <li><a href="products-Tshirts.html">Tshirts</a></li>
+                    </ul>
+                </li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact-us.html">Contact-us</a></li>
+            </ul>
         </div>
-    </nav>
-    <header id="shopping">
-        <div>
-            <strong>Thank You For Shopping With Us!</strong>
-        </div>
-    </header>
+    </section>
     <div class="container"> <!-- First Container-->
        <div class="row">    <!-- First Row-->
             <div class="col-12 col-md-2">
@@ -57,21 +66,21 @@
                 <img src="https://media1.fdncms.com/inlander/imager/u/original/22102873/artsculture2-1-8d5f6dc622fbaeb2.jpg" width="100 px" height="100 px" >
                 
             </div>
-            <div class="col-12 col-md-2" id="itemMargin">
+            <div class="col-12 col-md-2 itemMargin">
                 The Anthropocene by John Green <i class="far fa-heart"></i>
                 <i class="fas fa-trash-alt"></i>
             </div>
             <div class="col-12 col-md-3">
             </div>
-            <div class="col-12 col-md-2" id="itemMargin">
+            <div class="col-12 col-md-2 itemMargin">
                 <button type="button" class="btn btn-danger minus">-</button>
              <span id="product-0"> 1 </span>
                 <button type="button" class="btn btn-success plus">+</button>
             </div>
-            <div class="col-12 col-md-2 dollar-color" id="itemMargin">
+            <div class="col-12 col-md-2 dollar-color itemMargin">
                 $<span id="dollarBill-0">20.00 </span>
             </div>
-            <div class="col-12 col-md-1" id="itemMargin">
+            <div class="col-12 col-md-1 itemMargin">
                 $<span id = "total-0" class="total">20</span>
             </div>
         </div>  <!-- Second Row-->
@@ -84,21 +93,21 @@
                 <img src="http://www.todaysparent.com/wp-content/uploads/2016/05/stroller-2016.jpg" width="100 px" height="100 px" alt="Comfie Pjama">
                 
             </div>
-            <div class="col-12 col-md-2" id="itemMargin">
+            <div class="col-12 col-md-2 itemMargin">
                 A Stroller <i class="far fa-heart"></i>
                 <i class="fas fa-trash-alt"></i>
             </div>
             <div class="col-12 col-md-3">
             </div>
-            <div class="col-12 col-md-2" id="itemMargin">
+            <div class="col-12 col-md-2 itemMargin">
                 <button type="button" class="btn btn-danger minus">-</button>
             <span id="product-1"> 1 </span>
                 <button type="button" class="btn btn-success plus">+</button>
             </div>
-            <div class="col-12 col-md-2 dollar-color" id="itemMargin">
+            <div class="col-12 col-md-2 dollar-color itemMargin">
                 $<span id="dollarBill-1">35.00 </span>
             </div>
-            <div class="col-12 col-md-1" id="itemMargin">
+            <div class="col-12 col-md-1 itemMargin">
                $<span id = "total-1" class="total">35</span>
             </div>
         </div>  <!-- Third Row-->
@@ -111,21 +120,21 @@
                 <img src="https://www.bathandbodyworks.com.eg/sites/g/files/bndsjb1451/files/styles/product_listing/public/media/assets/bbw/26169435_1.86700.jpg?itok=iDCrW4r7" width="100 px" height="120 px" alt="Cool Perfume">
                 
             </div>
-            <div class="col-12 col-md-2" id="itemsMargin">
+            <div class="col-12 col-md-2 itemMargin">
                 Warm Vanilla Sugar 3-Wick Candle <i class="far fa-heart"></i>
                 <i class="fas fa-trash-alt"></i>
             </div>
             <div class="col-12 col-md-3">
             </div>
-            <div class="col-12 col-md-2" id="itemMargin">
+            <div class="col-12 col-md-2 itemMargin">
                 <button type="button" class="btn btn-danger minus">-</button>
                 <span id="product-2"> 1 </span>
                 <button type="button" class="btn btn-success plus">+</button>
             </div>
-            <div class="col-12 col-md-2 dollar-color" id="itemMargin">
+            <div class="col-12 col-md-2 dollar-color itemMargin">
                $<span id="dollarBill-2">15.00 </span>
             </div>
-            <div class="col-12 col-md-1" id="itemMargin">
+            <div class="col-12 col-md-1 itemMargin">
                $ <span id = "total-2" class="total">15</span>
             </div>
         </div>  <!-- Fourth Row-->
@@ -135,20 +144,20 @@
         <div class="row">  <!-- Fifth Row-->
             <div class="col-12 col-md-2">
             </div>
-            <div class="col-12 col-md-2" id="itemsMargin">
+            <div class="col-12 col-md-2 itemMargin">
             </div>
             <div class="col-12 col-md-3">
             </div>
-            <div class="col-12 col-md-2" id="itemMargin">
+            <div class="col-12 col-md-2 itemMargin">
             </div>
-            <div class="col-12 col-md-2 dollar-color" id="itemMargin">
+            <div class="col-12 col-md-2 dollar-color itemMargin">
             </div>
-            <div class="col-12 col-md-1" id="itemMargin">
+            <div class="col-12 col-md-1 itemMargin">
                 <span id="grandtotal">$70</span>
             </div>
         </div>  <!-- Fifth Row-->
     </div>  <!-- Fifth Container-->
-    <script src="DOM JS.js"></script>
+    <script src="assets/js/cartScript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

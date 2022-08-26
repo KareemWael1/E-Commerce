@@ -1,3 +1,7 @@
+.container{
+    margin-top: 20px;
+}
+
 #navID {
     background-color: crimson;
     color: whitesmoke;
@@ -19,12 +23,12 @@
     color: #00D100;
 }
 
-#itemMargin {
+.itemMargin {
     margin-top: 25px;
     
 }
 
-#itemsMargin {
+.itemsMargin {
     margin-top: 35px;
 }
 
