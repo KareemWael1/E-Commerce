@@ -1,0 +1,37 @@
+.container{
+  margin-top: 20px;
+}
+
+#navID {
+  background-color: crimson;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Crimson Text', serif;
+}
+
+#shopping {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Staatliches", cursive;
+  color: black;
+}
+
+.dollar-color {
+  color: #00D100;
+}
+
+.itemMargin {
+  margin-top: 25px;
+
+}
+
+.itemsMargin {
+  margin-top: 35px;
+}
+
+.red {
+  background-color: red;
+}

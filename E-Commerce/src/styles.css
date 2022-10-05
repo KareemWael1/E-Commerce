@@ -1,0 +1,327 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.section-p1
+{
+  padding: 40px 80px;    /* padding for the section 1 */
+}
+
+#welcome
+{
+  height: 90vh;
+  width: 100%;
+  background-position: top 25% right 0;
+  background-image: url("assets/images/trial.jpg");
+  background-size: cover;
+  background-position: top  0 right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#welcome h4{
+  padding-bottom: 15px;
+}
+
+#welcome h1{
+  color: rgb(47, 128, 0);
+}
+
+#welcome button{
+
+background-color: transparent;
+color: rgb(47, 128, 0);
+  background-color: rgb(47, 128, 0);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+
+
+
+}
+
+
+h1
+{
+  font-size: 50px;
+  line-height: 63px;
+  color :#222;
+
+}
+
+h2
+{
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+
+}
+
+h4
+{
+  font-size: 20px;
+  color: #222;
+
+}
+
+#features
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+
+#features img
+{
+ width: 100px;
+ height: 100px;
+}
+
+
+#features .fe-box
+{
+  width: 180px;
+  text-align: center;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+  padding: 25px 15px;
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+
+
+
+}
+
+#firstproduct{
+  text-align: center;
+}
+
+#firstproduct .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#firstproduct .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgb(0,0,0,0.02);
+  margin: 15px 0;
+  transition: 0.1s ease;
+
+}
+
+#firstproduct .pro:hover{
+  box-shadow: 20px 20px 30px rgb(0,0,0,0.08);
+}
+
+#firstproduct .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#firstproduct .pro.des{
+  text-align : start;
+  padding: 10px 0;
+}
+
+#firstproduct .pro .des span{
+  color:#222;
+  font-size: 14px;
+}
+
+#firstproduct .pro .des h5{
+  padding-top: 7px;
+  color: black;
+  font-size: 16px;
+}
+
+#firstproduct .pro .des i{
+font-size: 12px;
+color: rgb(243,181,25);
+}
+
+#firstproduct .pro .des h4{
+  padding-top: 7px;
+  color:rgb(47, 128, 0);
+  font-size: 16px;
+  font-weight:bold;
+}
+
+#shop-header{
+
+  height: 20vh;
+  width: 100%;
+  background-position: top 25% right 0;
+
+  background-image: url("assets/images/papers.co-si66-green-emerald-gradation-blur-23-wallpaper.jpg");
+
+  background-size: cover;
+  background-position: top  0 right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+#pagenum{
+  text-align: center;
+}
+
+#pagenum a{
+text-decoration: none;
+background-color: rgb(47, 128, 0) ;
+padding: 15px 20px;
+border-radius: 4px;
+color: white;
+font-weight: 600;
+}
+
+
+#prodetails .single-pro-image{
+width:40%;
+margin-right: 50px;
+}
+
+#prodetails .small-images{
+  display: flex;
+  justify-content: space-between;
+}
+
+#prodetails .small-images-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails {
+  display: flex;
+  margin-top: 20px ;
+}
+
+#prodetails .single-prodetails{
+  width:50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-prodetails h4{
+  padding: 40px 0 20px 0;
+
+}
+
+#prodetails .single-prodetails h2{
+  font-size: 26px;
+
+}
+
+#prodetails .single-prodetails select{
+  display: block;
+  padding: 5px 10px ;
+  margin-bottom: 10px;
+
+}
+
+#prodetails .single-prodetails input{
+  width:50px;
+  height: 47px;
+  padding-left: 10px ;
+  font-size: 16px;
+  margin-right: 10px;
+
+}
+
+#prodetails .single-prodetails button{
+  background:rgb(47, 128, 0);
+  color:white;
+
+}
+
+#page-header.blog-header {
+  background-image: url("assets/images/b7.jpg");
+}
+
+#blog {
+  padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#blog .blog-details {
+  width: 50%;
+}
+
+#blog .blog-details a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  font-weight: 700;
+  position: absolute;
+  transition: 0.3s;
+}
+
+#blog .blog-details a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blog-details a:hover {
+  color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+  background-color: #088178;
+}
+
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbce;
+  z-index: -9;
+}

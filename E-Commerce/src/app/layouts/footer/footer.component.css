@@ -1,0 +1,57 @@
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+footer{
+  display: flex;
+  padding: 40px 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom:20px;
+
+}
+
+footer h4
+{
+  font-size: 14px;
+  padding-bottom: 20px;
+
+
+}
+footer p
+{
+  font-size: 12px;
+  padding-bottom: 20px;
+
+
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin: 0 0 8px 0;
+
+}
+
+footer .install .row img
+{
+  border: 1px solid black;
+
+
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;  /* to make spaces cool good in footer section in pictures of visa */
+}
