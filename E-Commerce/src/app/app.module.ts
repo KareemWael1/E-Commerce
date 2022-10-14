@@ -13,6 +13,7 @@ import { MyAccountComponent } from './components/my-account/my-account.component
 import { LoginComponent } from './components/login/login.component';
 import { ProdPageComponent } from './components/prod-page/prod-page.component';
 import { ProductComponent } from './components/product/product.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProductComponent } from './components/product/product.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

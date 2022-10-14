@@ -4,4 +4,7 @@ export interface product{
   price: number;
   brand: string;
   type: string;
+  tag: string;
+  count: number;
+  quantity: number;
 }

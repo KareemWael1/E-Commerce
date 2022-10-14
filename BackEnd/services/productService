@@ -1,0 +1,32 @@
+const {dataBase} = require("../DataBase/base");
+
+class ProductService {
+
+
+    async list() {
+        let product = new dataBase();
+        return await product.find("products")
+    }
+
+    async one(id) {
+        let product = new dataBase();
+        return await product.findOne(id)
+    }
+
+    async update(id, params) {
+        let product = new dataBase();
+        return await product.update(id, params)
+    }
+
+    async delete(id) {
+        let product = new dataBase();
+        return await product.delete(id)
+    }
+}
+
+
+
+
+module.exports = {
+    ProductService
+}

@@ -1,10 +1,9 @@
-<div class="pro">
-    <img src="assets/images/f6.jpg" alt="">
+<div *ngFor="let product of getFeaturedProducts()" class="pro">
+    <img src={{product.image}} alt="">
     <div class="des">
-      <h4></h4>
-     <span>Zara</span>
-     <h5>Tshirt</h5>
-
-     <h4>200 EGP</h4>
+      <h4>{{product.name}}</h4>
+      <span>{{product.brand}}</span>
+      <h5>{{product.type}}</h5>
+      <h4>{{product.price}} EGP</h4>
     </div>
 </div>

@@ -3,12 +3,11 @@
 
   <div>
       <ul id="navbar">
-          <li><a class="active" routerLink="">Home</a></li>
-          <li><a routerLink="shop">Shop</a></li>
-          <li><a routerLink="cart">Cart</a></li>
-          <li><a routerLink="blog">Blog</a></li>
-          <li><a routerLink="myAccount">My Account</a></li>
-
+          <li><a [ngClass]="{active: getRoute() === '/'}" routerLink="">Home</a></li>
+          <li><a [ngClass]="{active: getRoute() === '/shop'}" routerLink="shop">Shop</a></li>
+          <li><a [ngClass]="{active: getRoute() === '/cart'}" routerLink="cart">Cart</a></li>
+          <li><a [ngClass]="{active: getRoute() === '/blog'}" routerLink="blog">Blog</a></li>
+          <li><a [ngClass]="{active: getRoute() === '/myAccount'}" routerLink="myAccount">My Account</a></li>
       </ul>
   </div>
 </section>
